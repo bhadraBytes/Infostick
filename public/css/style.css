@@ -599,8 +599,84 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+/* Responsive Styles for Mobile Devices */
 @media (max-width: 768px) {
-  #about img {
-    margin: 50px 0;
+  body,
+  html {
+    font-size: 14px; /* Decrease the base font size */
+  }
+
+  h1 {
+    font-size: 36px; /* Reduce the main heading size */
+  }
+
+  h2 {
+    font-size: 28px; /* Adjust subheading size */
+  }
+
+  h3 {
+    font-size: 18px; /* Adjust the size for smaller subheadings */
+  }
+
+  h4 {
+    font-size: 16px; /* Adjust the size for smaller headings */
+  }
+
+  p {
+    font-size: 14px; /* Decrease paragraph font size */
+  }
+
+  .btn-custom {
+    padding: 10px 20px; /* Reduce button padding */
+    font-size: 14px; /* Adjust button text size */
+  }
+
+  .navbar-brand {
+    font-size: 20px; /* Adjust navbar brand size */
+  }
+
+  #menu.navbar-default .navbar-nav > li > a {
+    font-size: 14px; /* Reduce the font size of navbar links */
+    margin: 5px 10px; /* Adjust margin for better alignment */
+  }
+
+  #about img,
+  #team .team-img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Adjust height proportionally */
+  }
+
+  .intro h1 {
+    font-size: 40px; /* Adjust main heading size in the intro section */
+  }
+
+  .intro p {
+    font-size: 16px; /* Adjust paragraph size in the intro section */
+    margin-bottom: 30px; /* Reduce the bottom margin */
+  }
+
+  #services i.fa,
+  #features i.fa {
+    font-size: 28px; /* Reduce icon sizes */
+    width: 80px; /* Reduce the icon container width */
+    height: 80px; /* Reduce the icon container height */
+  }
+
+  #portfolio .portfolio-item {
+    margin: 5px 0; /* Reduce margin around portfolio items */
+  }
+
+  header .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+
+  #contact .section-title {
+    margin-bottom: 20px; /* Reduce spacing in contact section */
+  }
+
+  #contact h2 {
+    font-size: 24px; /* Adjust contact section heading size */
   }
 }
+
